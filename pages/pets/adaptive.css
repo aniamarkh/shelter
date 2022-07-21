@@ -1,0 +1,268 @@
+@media (max-width: 1279px) {
+
+    header {
+        width: 100vw;
+
+        left: auto;
+        right: auto;}
+
+    .header-logo {
+        margin-left: 30px;
+    }
+    .header-menu {
+        margin-left: auto;
+        margin-right: 30px;
+    }
+
+    .friends-title {
+        margin-bottom: 30px;
+    }
+
+    .friends {
+        width: 100vw;
+    }
+    .friends-wrapper {
+        width: 580px;
+        height: 1365px;
+
+    }
+
+    .friends-cards {
+
+        height: 1365px;
+    }
+
+    .friends-buttons {
+        margin-top: 49px;
+        margin-bottom: 76px;
+    }
+
+
+    footer {
+        width: 100vw;
+        background: url('./assets/images/noise_transparent.png'), linear-gradient(to right, #5B483A 0%, #262425 100%);
+        margin: 0 auto;
+    }
+
+    .footer-wrapper--contacts {
+        margin: 0 auto;
+    }
+
+    .footer-contacts {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    
+    .footer-location {
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+
+    .footer-img {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    /* MODAL */
+    
+    .modal-window {
+        width: 630px;
+        height: auto;
+    }
+
+    .modal-window--wrapper {
+        gap: 11px;
+      }
+
+    .modal-window--img img {
+        width: 350px;
+        height: 350px;
+        border-radius: 9px;
+    }
+
+    .modal-window--text {
+        width: 260px;
+        margin-bottom: 20px;
+    }
+    
+    .modal-window--text h2 {
+        margin-top: 10px;
+    }
+    
+    .modal-window--text h3 {
+        margin-top: 10px;
+    }
+    .modal-window--text p {
+        margin-top: 20px;
+    }
+    .modal-window--text ul {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1045px) {
+    
+    footer {
+        height: 639px;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+    }
+
+    .footer-img {
+        margin-top: 61px;
+    }
+
+}
+@media (max-width: 767px) {
+
+    main {
+        width: 100vw;
+    }
+
+    .header-logo {
+        margin-left: 10px;
+    }
+
+    .second {
+        display: none;
+    }
+
+    .header-menu {
+        margin-right: 84px;
+        margin-top: 40px;
+    }
+    .header-menu nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .friends-title {
+        width: 300px;
+        margin-top: 42px;
+        margin-bottom: 15px;
+    }
+
+    .friends-title h2 {
+        font-size: 25px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        margin: 0 auto;
+    }
+
+    .friends-wrapper {
+        width: 270px;
+        overflow: hidden;
+    }
+
+    .friends-cards {
+        gap: 30px;
+    }
+
+    .friends-buttons {
+        gap: 10px;
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 42px;
+        margin-bottom: 42px;
+    }
+
+    footer {
+        height: 809px;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+    }
+
+    .footer-wrapper--contacts {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .footer-contacts {
+        margin: 0 auto;
+        margin-top: 30px;
+
+    }
+
+    .footer-contacts h3 {
+        font-size: 25px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        text-align: center;
+        margin: 0 auto;
+        width: 270px;
+    }
+
+    .footer-location h3 {
+        text-align: center;
+        width: 270px;
+        font-size: 25px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        margin: 0 auto;
+    }
+
+    .footer-contacts-item {
+        margin-left: 20px;    
+    }
+
+    .footer-location {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .footer-location-item {
+        margin-top: 40px;
+    }
+
+    .footer-img {
+        margin-top: 38px;
+    }
+
+    .footer-img img {
+        width: 260px;
+        height: 269px;
+    }
+
+
+/* MODAL */
+
+.modal-window {
+    width: 240px;
+    height: auto;
+}
+.modal-window--img {
+    display: none;
+}
+.cross-btn {
+    top: -16%;
+    left: 90%;
+}
+
+.modal-window--text {
+    margin-left: 10px;
+    width: 220px;
+    align-items: center;
+}
+
+.modal-window--text h2 {
+    margin-top: 10px;
+
+text-align: center;
+}
+
+.modal-window--text h3 {
+    margin-top: 10px;
+
+text-align: center;
+}
+.modal-window--text p {
+    margin-top: 20px;
+}
+
+}
